@@ -1,8 +1,7 @@
+# Part 1 ----------------------------------------
 with open("input1.txt", "r") as file:
     nums = list(map(int, file.read().splitlines()))
 
-
-# Part 1
 count = 0
 for i in range(1, len(nums)):
     if nums[i] > nums[i-1]:
@@ -10,7 +9,7 @@ for i in range(1, len(nums)):
 print(count)
 
 
-# Part 2
+# Part 2 ----------------------------------------
 count = 0
 sliding_sums = []
 for start_idx in range(0, len(nums)-2):

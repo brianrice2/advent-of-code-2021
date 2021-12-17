@@ -1,6 +1,7 @@
 from collections import Counter
 
-# Part 1
+
+# Part 1 ----------------------------------------
 with open('input1.txt', 'r') as file:
     data = file.read().splitlines()
 
@@ -18,7 +19,7 @@ eps = int(eps, 2)
 print(f'Part 1: {gamma * eps}')
 
 
-# Part 2
+# Part 2 ----------------------------------------
 with open('input1.txt', 'r') as file:
     data = file.read().splitlines()
 
