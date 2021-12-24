@@ -3,7 +3,7 @@ import numpy as np
 
 # Part 1 ----------------------------------------
 # Parse the input draws and boards
-with open('input1.txt', 'r') as file:
+with open('input.txt', 'r') as file:
     data = file.read().split('\n\n')
 draws = map(int, data[0].split(','))
 boards = []
@@ -37,7 +37,7 @@ print(f'Part 1: {score}')
 
 
 # Part 2 ----------------------------------------
-with open('input1.txt', 'r') as file:
+with open('input.txt', 'r') as file:
     data = file.read().split('\n\n')
 draws = list(map(int, data[0].split(',')))
 boards = []

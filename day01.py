@@ -1,5 +1,5 @@
 # Part 1 ----------------------------------------
-with open("input1.txt", "r") as file:
+with open("input.txt", "r") as file:
     nums = list(map(int, file.read().splitlines()))
 
 count = 0

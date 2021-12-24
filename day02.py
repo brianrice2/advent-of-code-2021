@@ -1,5 +1,5 @@
 # Part 1 ----------------------------------------
-with open("input1.txt", "r") as file:
+with open("input.txt", "r") as file:
     commands = file.read().splitlines()
 
 depth = 0
@@ -19,7 +19,7 @@ print(depth * horizontal)
 
 
 # Part 2 ----------------------------------------
-with open("input1.txt", "r") as file:
+with open("input.txt", "r") as file:
     commands = file.read().splitlines()
 
 depth, horizontal, aim = 0, 0, 0

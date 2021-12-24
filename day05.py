@@ -2,7 +2,7 @@ import numpy as np
 
 
 # Part 1 ----------------------------------------
-with open('input1.txt', 'r') as file:
+with open('input.txt', 'r') as file:
     data = file.read().splitlines()
 
 DIAGRAM_SIZE = 1000

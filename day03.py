@@ -2,7 +2,7 @@ from collections import Counter
 
 
 # Part 1 ----------------------------------------
-with open('input1.txt', 'r') as file:
+with open('input.txt', 'r') as file:
     data = file.read().splitlines()
 
 gamma = ''
@@ -20,7 +20,7 @@ print(f'Part 1: {gamma * eps}')
 
 
 # Part 2 ----------------------------------------
-with open('input1.txt', 'r') as file:
+with open('input.txt', 'r') as file:
     data = file.read().splitlines()
 
 bit = 0
