@@ -1,6 +1,6 @@
 from math import ceil, inf
 from statistics import mean, median
-from typing import List
+from typing import List, Tuple
 
 
 def get_total_travel(positions: List, align_at: int) -> int:
@@ -14,7 +14,7 @@ def get_special_travel(positions: List, align_at: int) -> int:
     return sum(map(lambda x: special_dist(x, align_at), positions))
 
 
-def minimize_special_travel(positions: List):
+def minimize_special_travel(positions: List) -> Tuple[int, int]:
     avg = mean(positions)
     med = round(median(positions), 0)
     start, end = int(min(avg, med)), int(ceil(max(avg, med)))
